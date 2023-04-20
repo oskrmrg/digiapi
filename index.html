@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listado de Digimons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/icono.ico">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="h1">DigiApi</h1>
+        <p class="subtitulo">El buscador de Digimones</p>
+       <br><br>
+        <section class="row">
+            <div class="col">
+                <div class="container">
+                    <select class="custom-select digimon option" onchange="digimonList()" id="digimonSelec">
+                        <option selected>Seleccione Digimon</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="contain">
+        <div class="col">
+            <div class="card contain_Digimon  contain_Hijo">
+                <img src="" id="imgDigimon" class="card-img-top rounded-circle" alt="">
+                <div class="card-body textoCard">
+                    <span>Nombre</span>
+                    <h5 class="card-title" id="nombreDigimon"></h5>
+                    <span>Nivel</span>
+                    <p class="card-text" id="nivelDigimon"></p>
+                </div>
+            </div>
+        </div>            
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p class="devops">Oscar M. Rodríguez G. <br>
+                Desarrollo Front-End <br>
+                2023</p>
+            <img src="assets/img/logo_github.ico" class="icono"></img><br>
+            <a href="https://github.com/oskrmrg" class="devops git">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

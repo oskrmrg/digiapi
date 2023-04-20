@@ -1,0 +1,275 @@
+.header{
+    background-image: url(/assets/img/digimonheader.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+    opacity: 75%;
+}
+
+.h1{
+    font-size: 50px;
+    color: darkgreen;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    padding-left: 20px;
+    -webkit-text-stroke: 1px white;
+}
+
+.subtitulo{
+    position: absolute;
+    font-weight: bold;
+    color: rgb(105, 2, 24);
+    padding-left: 20px;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+}
+
+.option {
+    width: 250px;
+}
+
+.contain {
+    height: 550px;
+   position: relative;
+    
+}
+
+.contain_Hijo {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  margin: -25px 0 0 -25px;
+}
+
+.contain_Digimon{
+    width: 290px;
+    height: 440px;
+
+}
+
+.h5 {
+    vertical-align: bottom;
+}
+
+footer {
+    background-image: url(/assets/img/footer.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.footer {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+}
+
+.devops {
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+}
+
+.git {
+    color:aquamarine;
+    text-shadow: 0.1em 0.1em 0.2em lightseagreen;
+}
+
+/* Responsividad */
+
+/* Pantallas de Moviles (Pequeña) */
+@media(min-width: 320px) and (max-width: 480px){
+    .header{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+
+    .contain {
+        position: relative;
+        padding-top: 16%;
+        border-radius: 2px solid red;
+    }
+
+    .contain_Hijo {
+        left: 25%;
+        margin: -25px 0 0 -25px;
+    }
+
+    footer{
+        background-image: url(/assets/img/footer_peq.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        
+    }
+
+    .devops { 
+        margin-top: -100px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+        
+    }
+    
+    .git {
+        color:aquamarine;
+        text-shadow: 0.1em 0.1em 0.2em lightseagreen;
+        
+    }
+}
+
+
+/* Pantallas de Tablets y Netbook (Medianas) */
+@media(min-width: 481px) and (max-width: 767px){
+    .header{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+        justify-content: center;
+        align-items: center;
+        text-align: center;     
+    }
+
+    .subtitulo {
+        
+        padding-left: 180px;
+    }
+
+    .contain {
+        position: relative;
+        padding-top: 10%;
+        border-radius: 2px solid red;
+    }
+
+    .contain_Hijo {
+        left: 35%;
+        margin: -25px 0 0 -25px;
+    }
+
+    footer{
+        background-image: url(/assets/img/footer_peq.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        
+    }
+
+    .devops { 
+        margin-top: -100px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: medium;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+        
+    }
+    
+    .git {
+        color:aquamarine;
+        text-shadow: 0.1em 0.1em 0.2em lightseagreen;
+        
+    }
+}
+
+/* Pantallas de Escritorio (Grandes) */
+@media(min-width: 768px) and (max-width: 1023px){
+    .header{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+
+    .contain {
+        position: relative;
+        padding-top: 10%;
+        border-radius: 2px solid red;
+    }
+
+    .contain_Hijo {
+        left: 40%;
+        margin: -25px 0 0 -25px;
+    }
+
+    footer{
+        background-image: url(/assets/img/footer.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+
+    .devops { 
+        margin-top: -80px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: medium;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+    }
+    
+    .git {
+        color:aquamarine;
+        text-shadow: 0.1em 0.1em 0.2em lightseagreen;
+    }
+}
+
+/* Pantallas de Escritorio (Extra grandes) */
+@media(min-width: 1024px) {
+    .header{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+
+    .contain {
+        position: relative;
+        padding-top: 5%;
+        border-radius: 2px solid red;
+    }
+
+    .contain_Hijo {
+        left: 40%;
+        margin: -25px 0 0 -25px;
+    }
+
+    footer{
+        background-image: url(/assets/img/footer.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        text-align: center;
+    }
+
+    .devops { 
+        margin-top: -50px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: medium;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+    }
+    
+    .git {
+        color:aquamarine;
+        text-shadow: 0.1em 0.1em 0.2em lightseagreen;
+    }
+}
